@@ -1,0 +1,85 @@
+---
+title: "Assignment1"
+author: "Robert Saldivar"
+date: "January 26, 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, message=FALSE, warning=FALSE}
+#Loading the packages and the data that will be needed for this assignment.
+
+library(tidyverse)
+library(tidyr)
+library(RColorBrewer)
+library(here)
+library(kableExtra)
+library(knitr)
+library(janitor)
+
+hare <- read_csv("showshoe_lter.csv")
+env_vars <- read_csv("world_env_vars.csv")
+
+```
+
+*Task 1*
+Showshoe Hares
+
+1. Description of the project:
+
+2. Map of the study area and maybe pictures with captions.
+
+3. Data Wrangling and Visualization
+
+```{r, message=FALSE}
+#Data Wrangling
+
+
+```
+
+
+```{r, message=FALSE}
+#Graph Visualization
+
+
+```
+
+
+```{r, message=FALSE}
+#Data Table
+
+
+```
+
+4. Results
+
+
+*Task 2*
+Principle Componets Analysis
+
+1. Description of the data and project.
+
+2. Code used to wrangle the data and a biplot
+
+```{r, message=FALSE}
+#Wrangling the data
+
+
+```
+
+```{r, message=FALSE}
+#Running the Principle Compenents Analysis
+
+
+```
+
+```{r, message=FALSE}
+#Creating a biplot from the PCA
+
+
+```
+
+3. Key take aways from the PCA
